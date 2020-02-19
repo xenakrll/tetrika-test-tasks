@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-f = open('/home/xenakrll/Documents/other/tetrix-test/names.txt', 'r')
+f = open('path/to/file/names.txt', 'r')
 lines = f.read().split('"')
 names = list(filter(lambda a: (a != ',')&(a != ''), lines))
 names.sort()
